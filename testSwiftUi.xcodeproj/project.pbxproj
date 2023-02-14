@@ -11,6 +11,10 @@
 		EB147771299934F5000CD239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB147770299934F5000CD239 /* ContentView.swift */; };
 		EB147773299934F7000CD239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB147772299934F7000CD239 /* Assets.xcassets */; };
 		EB147776299934F7000CD239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB147775299934F7000CD239 /* Preview Assets.xcassets */; };
+		EB14777F299938A8000CD239 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB14777D299938A8000CD239 /* PlayfairDisplay-Bold.ttf */; };
+		EB147780299938A8000CD239 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB14777E299938A8000CD239 /* PlayfairDisplay-Regular.ttf */; };
+		EB530902299BC352001A2483 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530901299BC352001A2483 /* HomeScreen.swift */; };
+		EB530904299BD9F9001A2483 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530903299BD9F9001A2483 /* DetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EB147770299934F5000CD239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB147772299934F7000CD239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB147775299934F7000CD239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB14777D299938A8000CD239 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		EB14777E299938A8000CD239 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		EB530901299BC352001A2483 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		EB530903299BD9F9001A2483 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		EB14776D299934F5000CD239 /* testSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				EB530900299BC20D001A2483 /* HomeScreen */,
+				EB14777C299938A8000CD239 /* Fonts */,
 				EB14776E299934F5000CD239 /* testSwiftUiApp.swift */,
 				EB147770299934F5000CD239 /* ContentView.swift */,
 				EB147772299934F7000CD239 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				EB147775299934F7000CD239 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB14777C299938A8000CD239 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB14777D299938A8000CD239 /* PlayfairDisplay-Bold.ttf */,
+				EB14777E299938A8000CD239 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EB530900299BC20D001A2483 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB530901299BC352001A2483 /* HomeScreen.swift */,
+				EB530903299BD9F9001A2483 /* DetailsScreen.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB147780299938A8000CD239 /* PlayfairDisplay-Regular.ttf in Resources */,
+				EB14777F299938A8000CD239 /* PlayfairDisplay-Bold.ttf in Resources */,
 				EB147776299934F7000CD239 /* Preview Assets.xcassets in Resources */,
 				EB147773299934F7000CD239 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB530904299BD9F9001A2483 /* DetailsScreen.swift in Sources */,
 				EB147771299934F5000CD239 /* ContentView.swift in Sources */,
 				EB14776F299934F5000CD239 /* testSwiftUiApp.swift in Sources */,
+				EB530902299BC352001A2483 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
